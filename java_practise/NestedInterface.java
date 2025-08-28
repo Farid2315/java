@@ -7,7 +7,7 @@ interface Outer{
 
 class Test implements Outer.Inner{
     public void display(){
-        System.out.println("display method");
+        System.out.println("display method implemented");
     }
     public void show(){
         System.out.println("show method");
